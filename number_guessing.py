@@ -6,7 +6,6 @@ import random
 # Variables
 attempts = 0  # Initializing attempts variable
 
-
 print(art.logo)
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
@@ -55,10 +54,8 @@ random_number = random.randint(
 )  # returns a number between 3 and 9 (both included)
 
 
-print(random_number)
+# print(random_number)
 # print(type(random_number))
-
-# As long as there is an Attempts lets make a Loop using While
 
 # Main game loop
 while attempts > 0:
